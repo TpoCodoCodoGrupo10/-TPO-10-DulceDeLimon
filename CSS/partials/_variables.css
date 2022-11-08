@@ -1,0 +1,19 @@
+/* Variables */
+:root {
+  --font-family:'Montserrat', sans-serif;
+  --normal-font: 400;
+  --bold-font: 700;
+  --bolder-font: 900;
+  /*  --bg-color: #fcfcfc;*/
+  --bg-color:  rgb(250, 188, 247);
+  --primary-color:rgb(133, 33, 128);
+  --secondary-color: rgba(195, 208, 208, 0.776);
+  --tercer-color: rgba(83, 87, 87, 0.776);
+  --primary-shadow: #7e6278;
+  --secondary-shadow: #a9a6a5;
+  --bottom-margin: 0.5rem;
+  --bottom-margin-2: 1rem;
+  --line-height: 1.7rem;
+  --transition: 0.3s;
+}
+/* Variables end */
