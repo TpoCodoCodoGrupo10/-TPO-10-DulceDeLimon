@@ -1,0 +1,10 @@
+body{
+    font-size: larger;
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(to right, #6F2C63, #EC6EAD ); 
+}
+
+h1,a,#output{
+    color: azure;
+    font-size: larger;
+}

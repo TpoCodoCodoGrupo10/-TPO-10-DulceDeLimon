@@ -116,7 +116,16 @@ margin-right: 5px;
     color:azure;    
 }
 
+.receta{
+    background-color: #6F2C63;
+    text-align: left;
+    font-size: larger;
+    height: 10vh;
+}
 
+a{
+    color: #fff;
+}
 footer  {
     width: 100%;
     height: 110px;
