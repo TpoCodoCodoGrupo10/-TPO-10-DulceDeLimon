@@ -16,7 +16,7 @@ window.addEventListener('load',()=>{
             const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&lang=es&units=metric&appid=43feb3099e899730f49367c5928432e1`
             
            //elegir ciudad 
-           //const url= 'https://api.openweathermap.org/data/2.5/weather?q=Argentina,ARG&lang=es&units=metric&appid=43feb3099e899730f49367c5928432e1'
+           //const url= 'https://api.openweathermap.org/data/2.5/weather?q=Madrid&lang=es&units=metric&appid=43feb3099e899730f49367c5928432e1'
              
            fetch(url)
            .then(response => {return response.json()})
@@ -29,7 +29,7 @@ window.addEventListener('load',()=>{
             temperaturaDescripcion.textContent=`${desc}`
 
             ubicacion.textContent = data.name
-            vientoVelocidad.textContent=`${data.wind.speed}m/s`
+            //vientoVelocidad.textContent=`${data.wind.speed}m/s`
 
             console.log (data.weather[0].icon)
             let iconCode = data.weather[0].icon
