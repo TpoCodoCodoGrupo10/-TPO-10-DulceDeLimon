@@ -12,39 +12,25 @@
   <meta property="og:image:secure_url" content="https://d3ugyf2ht6aenh.cloudfront.net/stores/413/750/products/q_nombre-c92ee05f3d903fb4b415132648799434-640-0.jpg" />    
   <link rel="icon"  href="../Imagenes/Pastelear/pastelito.ico">
   <script src="https://kit.fontawesome.com/62ea397d3a.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../CSS/styles.css">
   <title>Recetas </title>
 </head>
 <body>
-  <header>
-    
-    <nav class="nav">
-
-      <ul class="nav_ul">
-          <li class="nav__li"><a href="./Index.html">Inicio</a></li>
-          <li class="nav__li"><a href="./about.html" target="_blank">Quienes Somos</a></li>
-          <li class="nav__li"><a href="./eventos.html" target="_blank" >Eventos</a></li>
-           <li class="nav__li"><a href="./contact.html" target="_blank">Contacto</a></li>
-          <li class="nav__li"><a href="./ubicacion.html"target="_blank">Donde estamos </a></li>
-          <li class="nav__li"><a href="../HTML/recetas.html">Recetas Sugeridas</a></li>
+  <nav>
   
-      </ul>
-      <ul class="nav__responsive-ul">
-          <div class="nav__responsive-button-container">
-          <div class="nav__responsive-button fas fa-bars">  </div>
-      </div>
-          <div class="nav__li-container">
-          <li class="nav__responsive-li">  <a href="./Index.html">INICIO</a></li>
-          <li  class="nav__responsive-li"> <a href="./about.html" target="_blank">QUIENES SOMOS</a></li>
-          <li class="nav__responsive-li"><a href="./eventos.html" target="_blank" >EVENTOS</a></li>
-          <li class="nav__responsive-li"> <a href="./contact.html" target="_blank">CONTACTO</a></li>
-          <li class="nav__responsive-li"> <a href="./ubicacion.html"target="_blank">DONDE ESTAMOS </a></li>
-          <li class="nav__li"><a href="../HTML/recetas.html">RECETAS SUGERIDAS </a></li>
-  
-  </div>
-      </ul>
-  </nav>
-</header>
+    <h1>Recetas  </h1>
+    <ul class="nav-links">
+        <li><a href="./Index.html"target="_blank">Inicio</a></li>
+        <li><a href="./about.html"target="_blank">Quienes somos</a></li>
+        <li><a href="./eventos.html"target="_blank">Evento</a></li>
+        <li><a href="./contact.html"target="_blank">Contacto</a></li>
+    </ul>
 
+    <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+    </button>
+</nav>
+<section class="receta">
 <div>
     <h2>Buscador de recetas:</h2>
     <input id="search" placeholder="Ej:Pancakes,Sandwich,etc."><button onclick="getrecepe(document.getElementById('search').value)">Buscar</button>
@@ -61,7 +47,7 @@
   
   No olvides compartir los resultados en nuestras redes y compartirtus tips para mejorar!.
 </p>
-
+</section>
 <div class="clima">
   <div id="contenedor">
    <div id="caja1">
@@ -91,8 +77,7 @@
 </footer>
 
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
-<script src="../Js/app.js"></script>
 <script src="../JS/clima.js"></script>
-
+<script src="../Js/receta.js"></script>
 </body>
 </html>
