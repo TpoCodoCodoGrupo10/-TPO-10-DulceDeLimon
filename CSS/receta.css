@@ -8,7 +8,7 @@ html {
 }
 body {
     font-size: 1.6rem;
-    padding-left: 5px;
+    padding-left: 12px;
 }
 .boton{ 
     width: 200px;
@@ -67,7 +67,7 @@ body {
 
 nav{
     background: rgb(169, 80, 153);
-    margin-left: 5px;
+    /*margin-left: 5px;*/
 }
 .nav__li{
     display: inline-block;
@@ -221,6 +221,15 @@ iframe{
     box-sizing: content-box;
     margin-left: 500px;  
    
+}
+
+#mail{
+    color: azure;
+}
+
+h2{
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #rec{
