@@ -128,16 +128,27 @@ margin-right: 5px;
 }
 footer  {
     width: 100%;
-    height: 110px;
+    height: 150px;
     background-color: rgb(169, 80, 153);
     text-align: center;
     padding: 10px;
     color: #fff;
 
 }
+.logo{
+    margin-left: 170px;
+}
+.small-logos{
+    height: 20px;
+    width: 20px;
+}
+h3, .side-picture{
+    margin: 20px;
+}
 
-
-
+iframe{
+    margin: 5px 20px;
+}
 
 
 @media (min-width:480px) {
