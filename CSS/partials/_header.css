@@ -8,15 +8,15 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 1.5rem 3.5rem;
-  background-color: var(--bg-color);
+  background-color: var(--primary-color);
 }
 
 nav h1 {
-  color: var(--primary-color);
+  color: var(--bg-color);
 }
 
 nav a {
-  color: var(--primary-color);
+  color: var(--bg-color);
   transition: var(--transition);
 }
 nav a:hover {
@@ -34,7 +34,7 @@ nav ul li {
 }
 
 .burger-menu {
-  color: var(--primary-color);
+  color: var(--bg-color);
   font-size: 2rem;
   border: 0;
   background-color: transparent;
