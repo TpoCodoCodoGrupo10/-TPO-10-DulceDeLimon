@@ -1,0 +1,236 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+  /* object-fit: cover;/*ajusta la imagen al contendor*/
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    font-size: 1.6rem;
+    padding-left: 5px;
+}
+.boton{ 
+    width: 200px;
+    height: 40px;
+    margin-left: 40px;
+    margin-right: 5px;
+    background-color: rgb(111, 44, 99); 
+    transition:all 1s;
+}
+.boton:active { 
+    background-color: rgb(218, 223, 223);
+    width: 240px;
+    height: 45px;
+}
+.titulo {
+    font-size: 2rem;
+    color:rgb(111, 44, 99); 
+    text-align: center;
+
+}
+.flex-container {
+    display: flex;
+     margin-left: 5px;
+   margin-right: 5px;
+   /*max-width: 1200px;*/
+   width: 100%;
+
+  margin-bottom: 20px;
+
+}
+
+.flex-left { 
+    width: 75%;
+    margin: 5px;
+    display: flex;
+    flex:1;
+    flex-wrap:wrap ;
+  
+}
+
+
+
+.flex-right { 
+    width: 25%;
+    margin: 5px;
+    height: 100%;
+  
+    text-align: center;
+}
+
+
+
+.nav__responsive-ul{
+    display: none;
+}
+
+nav{
+    background: rgb(169, 80, 153);
+    margin-left: 5px;
+}
+.nav__li{
+    display: inline-block;
+    padding: 12px;
+    color:#fff
+}
+.nav__li:hover> a {
+ 
+    color:#bbb   
+}
+
+.nav__li:hover> i {
+   
+    color:#bbb  
+}
+.nav__li a {   /*asi le cambio el estilo a los a href*/
+    color: #fff;
+    text-decoration: none; /*le saca el subrayado a los nombres del menu*/
+}
+.nav__li i { /*aca tomo los iconos*/
+
+box-sizing: border-box;
+text-align: right;
+margin-right: 5px;
+}
+
+.columnas {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+/*.entrada-blog {
+    background-color: rgba(237, 162, 219, 0.4); 
+   
+   
+}*/
+.entrada-blog img {
+   margin-left: 25px;
+   margin-right: 5px;
+    width:80%;
+    height:45%;
+    /*margin: 10px*/
+  
+     }
+.entrada-blog a {
+    display: inline-block;
+    background-color:  rgb(129, 62, 116);;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+.descripcion {
+    text-align: center;
+  
+}
+footer  {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(169, 80, 153);
+    text-align: center;
+    padding: 5px;
+    color: #fff;
+
+} 
+.logo{
+    margin-left: 170px;
+}
+.small-logos{
+    height: 20px;
+    width: 20px;
+}
+h3, .side-picture{
+    margin: 20px;
+}
+
+iframe{
+    margin: 5px 20px;
+}
+.logo-home{
+    width: 30px;
+    height: 30px;
+}
+.nav_lateralppal{
+    list-style: none;
+}
+@media (min-width:480px) {
+    .columnas {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .entrada-blog {
+    
+        flex-basis: calc(33.3% - 1rem);
+        /*calc() hace un cálculo matemático*/
+        /*Ocupa el 33% del contenedor - 1 rem para dar espacio entre columnas*/
+    }
+    
+    
+    .foot { color:#fff}
+}
+
+.foot { color:#fff}
+
+.clima {
+    font-size: 1rem;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#contenedor {
+    text-align:center;
+    display: grid;
+    grid-template-columns:  50px;
+    grid-gap: 10px;
+    
+}
+
+#caja1 {
+    background-color: rgb(169, 80, 153);
+    color:azure; 
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 20%;
+    width: 200px;
+    height: 150px;
+    border-style: outset;
+    border-radius: 25px;
+    margin-left: 500px;     
+}
+#caja2 {
+    background-color: rgb(169, 80, 153);
+    color:azure;  
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 20%;
+    width: 200px;
+    height: 150px;
+    border-style: outset;
+    border-radius: 25px;
+    box-sizing: content-box;
+    margin-left: 500px;  
+   
+}
+
+#rec{
+    animation-name: rec-animation;
+    animation-duration: 1s;
+    animation-iteration-count: 3;
+}
+
+@keyframes rec-animation{
+    0% {font-size: large;}
+    50% {font-size: medium;}
+    100%{ font-size:large;}
+
+}
