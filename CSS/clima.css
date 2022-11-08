@@ -63,7 +63,24 @@ margin-right: 5px;
     justify-content: center;
     color: #fff;
     background-color: #6F2C63;
+    
+    animation-duration: 3s;
+    animation-name: move;
 }
+      
+    @keyframes move {
+        from {
+          margin-left: 10%;
+          width: 300%
+        }
+      
+        to {
+          margin-left: 10%;
+          width: 100%;
+        }
+      }
+      
+
 
 #contenedor {
     
