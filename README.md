@@ -1,3 +1,4 @@
+
 ##Descripcion
 Sitio web de pasteleria con las siguientes paginas 
 Inicio
@@ -20,4 +21,4 @@ La carpeta pages contiene los htmls de las paginas
 **Client:** HTML, CSS, Vanilla JavaSCript
 
 
-autor: Florencia Gallardi
+
